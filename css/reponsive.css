@@ -1,0 +1,175 @@
+/* width 992px */
+@media (min-width: 992px){
+	.navbar-expand-lg .navbar-nav .nav-link {
+	    padding-right: .9rem;
+	    padding-left: .9rem;
+	}
+	.about-left p {
+		width: 90%;
+	}
+	.main-header {
+		margin-top: 50px;
+	}
+}
+
+@media (max-width: 992px){
+	.navbar-nav {
+	    background: #1d1f29; padding: 15px !important; margin-top: 10px;
+	    -webkit-border-radius: 20px;
+		-moz-border-radius: 20px;
+		border-radius: 20px;
+		box-shadow: 0 19px 38px rgba(0,0,0,.3), 0 15px 12px rgba(0,0,0,.22);
+	}
+	.specification {
+		text-align: center;
+	}
+
+	.specification-left {
+		margin-bottom: 50px;
+	}
+	.navbar-toggler {
+    	padding: .25rem .0rem .25rem .75rem !important;
+	}
+	.our-team-content-item-top-img {
+		margin: 0 auto; float: none !important;
+	}
+	.our-team-content-item-top-info {
+		text-align: center; width: 100%; padding-left: 0px !important;
+		margin-top: 20px;
+	}
+	.our-team-content-item-bottom{
+		text-align: center;
+	}
+	.our-team-content li {
+		margin-bottom: 50px !important;
+	}
+}
+
+/* width between 768 < 992 */
+@media (max-width: 992px) and (min-width: 768px){
+	.main-header-left {
+		padding-top: 50px;
+	}
+	.main-header-left h3 {
+		font-size: 26px;
+	}
+	.main-header-partners img {
+		width: 90%;
+	}
+	.about-left .main-but-md{
+		margin-bottom: 15px;
+	}
+	.specification-list-item-bg {
+		height: 280px; overflow: hidden;
+	}
+	.specification-list-item-bg h5 {
+		font-size: 12px;
+	}
+	.specification-list-item-bg p {
+		font-size: 8px;
+	}
+	.attributes .attributes-content .attributes-content-inside img {
+		width: 100% !important; margin: 0 auto;  padding-top: 50px;
+	}
+}
+
+/* width between 1200 > 992 */
+@media (max-width: 1200px) and (min-width: 992px){
+
+}
+
+/* width below 768 */
+@media (max-width: 768px){
+	.main-header-left {
+		padding-top: 20px;
+		text-align: center;
+		margin-bottom: 50px;
+	}
+	.main-header-left h3 {
+		font-size:36px;
+	}
+	.main-header-partners .col-md-3 {
+		width: 50%; text-align: center; margin-bottom: 20px;
+	}
+	.main-header-partners img {
+		width: 100%;
+		padding: 10px;
+
+
+
+	}
+	.about-left .main-but-md{
+		margin-bottom: 15px;
+	}
+	.about-left {
+		margin-bottom: 20px;
+	}
+	.specification-list-item-bg {
+		margin-bottom: 30px; height: auto; padding: 20px !important;
+	}
+	.specification-list-item-bg h5 {
+		font-size: 20px;
+	}
+	.specification-list-item-bg p {
+		font-size: 13px; line-height: 20px;
+	}
+	.road-map-item-date {
+		padding: 40px 40px 0px !important; border-right: 0px;
+	}
+	.road-map-item-date h5 {
+		position: relative;
+		top: 0%;
+		left: 0%;
+	}
+	.road-map-item-descption {
+		padding: 0px 40px 20px; 
+	}
+	.road-map-item-progress-bg {
+		position: relative; top: 0;
+	}
+	.road-map-item-progress {
+		padding: 40px 20px 40px 20px;
+	}
+	.road-map-item-date h5 {
+		-ms-transform:rotate(0deg); /* IE 9 */
+	    -moz-transform:rotate(0deg); /* Firefox */
+	    -webkit-transform:rotate(0deg); /* Safari and Chrome */
+	    -o-transform:rotate(0deg); /* Opera */
+	    -moz-transform-origin: 0px 0px;
+	    -webkit-transform-origin: 0px 0px;
+	    transform-origin: 0px 0px;
+	}
+
+	.road-map-item-progress-bg-bar  {
+		padding-left: 40px;
+    	padding-right: 40px;
+    	top: calc(50% - 2px);
+	}
+
+	.footer .col-md-3 {
+		margin-bottom: 30px !important;
+	}
+
+	.footer p {
+		width: 100%;
+	}
+
+	.features-content .col-md-6{
+		margin-bottom: 30px;
+	}
+	.features {
+		margin-bottom: 0px;
+	}
+
+	.attributes .attributes-content .attributes-content-inside h3 {
+		text-align: center;
+	}
+
+	.attributes .attributes-content .attributes-content-inside p {
+		text-align: justify;
+	}
+
+	.attributes .attributes-content .attributes-content-inside img {
+		width: 50% !important; margin: -80px auto 0 auto;
+	}
+}
